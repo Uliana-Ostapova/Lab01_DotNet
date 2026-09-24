@@ -6,7 +6,7 @@
 В лабораторной работе были изучены основы платформы .NET и языка C#. Была создана консольная программа, выполнена работа с переменными, вводом и выводом данных, математическими операциями и Git. ТАк же была выполнена работа с GitHub и оформлен проект в README.md.
 
 Структура проекта:
-
+```
 Lab01_DotNet/
 |---HelloWorld/ - консольное приложение .NET
 |   |--.gitignore - исключения для Git
@@ -14,20 +14,20 @@ Lab01_DotNet/
 |   |--Program.cs - исходный код программы
 |--img/ - скриншоты лабораторной работы
 |--README.md - документация проекта
-
+```
 Примеры кода:
 ```csharp
-// Console.WriteLine("Введите ваше имя: ");
-// string name2 = Console.ReadLine();
-// Console.WriteLine($"Привет, {name2}!");
+Console.WriteLine("Введите ваше имя: ");
+string name2 = Console.ReadLine();
+Console.WriteLine($"Привет, {name2}!");
 ```
 ```csharp
-//Console.WriteLine("Калькулятор");
-// Console.Write("Введите первое число: ");
-// double num1 = double.Parse(Console.ReadLine());
-// Console.Write("Введите второе число: ");
-// double num2 = double.Parse(Console.ReadLine());
-// Console.WriteLine($"Сумма: {num1 + num2}");
+Console.WriteLine("Калькулятор");
+Console.Write("Введите первое число: ");
+double num1 = double.Parse(Console.ReadLine());
+Console.Write("Введите второе число: ");
+double num2 = double.Parse(Console.ReadLine());
+Console.WriteLine($"Сумма: {num1 + num2}");
 ```
 Главные выводы:
 1. Я изучила основы работы с платформой .NET и языком C#.
